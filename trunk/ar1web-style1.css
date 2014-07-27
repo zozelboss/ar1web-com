@@ -1,0 +1,568 @@
+-----------------------------------------------
+Blogger Template Style
+Name:     ArabeWeb v1
+Admin:    Houssam Baha
+URL:      www.ar1web.com
+----------------------------------------------- */
+
+*{
+backgrund:url(http://www.ar1web.com);
+margin:0;
+padding:0;
+outline:0;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+padding: 0;
+border: 0;
+outline: 0;
+vertical-align: baseline;
+background: transparent;
+}
+/* remember to highlight inserts somehow! */
+ins {
+text-decoration:underline;
+}
+del {
+text-decoration: line-through;
+}
+h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, il, a, input {
+direction:rtl;
+}
+a {text-decoration:none;}
+a :visited{text-decoration:none;}
+a :hover{text-decoration:none;}
+blockquote
+{
+margin:5px 17px;
+padding:7px;
+border:2px solid #3e89f1;
+color:#000;
+background:#E9F4FA;
+}
+ul , ol , dl {
+list-style-position:inside;
+font-weight:bold;
+list-style:none;
+}
+/*-----------body-----------*/
+body {
+background: url(http://4.bp.blogspot.com/-XSSjp0cUuM4/UhVanom5r5I/AAAAAAAAA7w/Cp07qkquN3I/s1600/bg.png);
+margin: 0;
+padding: 0;
+direction: rtl;
+font: normal 13px tahoma;
+}
+/*-----Font Face-----*/
+@font-face {
+font-family: 'GESSTwoMediumRegular';
+src: url('https://dl.dropboxusercontent.com/u/83505058/ge-ss-med-webfont.eot');
+src: url('https://dl.dropboxusercontent.com/u/83505058/ge-ss-med-webfont.eot?') format('embedded-opentype'),
+url('https://dl.dropboxusercontent.com/u/83505058/ge-ss-med-webfont.woff') format('woff'),
+url('https://dl.dropboxusercontent.com/u/83505058/ge-ss-med-webfont.ttf') format('truetype'); }
+
+/*----------Wrapper----------*/
+
+#content-wrapper{width:990px;background:#fff;overflow:hidden;margin: 0 auto 10px;
+border: 1px solid #ccc;
+border-top: none;padding: 0;}
+#main-wrapper{width: 66%;
+float: right;
+margin: 10px 0;
+padding: 0;
+border-left: 1px solid #ddd;
+}
+#sidebar-wrapper{width:33%;float:left;padding:0;margin:10px 0;}
+
+#header-wrapper{
+width:100%;
+overflow:hidden;
+height: 150px;
+margin:0;
+padding:0;
+border-top: 5px solid #FF2424;
+}
+/*-------------Topnav--------*/
+#topnav{
+width:100%;
+margin:0;
+padding:0;
+overflow:hidden;
+background:url(http://good-themes.com/preview/mudawanah/wp-content/themes/Mudawanah/images/top_bar_bg.gif) repeat-x;
+height: 35px;
+}
+#topnav ul{
+width: 990px;
+margin: 0 auto;
+padding: 0;
+overflow: hidden;
+}
+
+/* This button was generated using CSSButtonGenerator.com */
+#topnav ul li {
+float: right;
+padding: 0 10px 0 10px;
+display: block;
+margin: 10px 0;
+-webkit-transition: all 1s ease .2s;
+-moz-transition: all 1s ease .2s;
+-o-transition: all 1s ease .2s;
+-pie-transition: all 1s ease .2s;
+transition: all 1s ease .2s;
+}
+#topnav ul li a{
+margin: 5px;
+padding: 0;
+color: #fff;
+font: normal 12px tahoma;
+text-shadow: 1px 1px 0 #000;
+}
+#topnav ul li span{text-align:center;margin:0;padding:0;color:#00C0F0;text-shadow: 0 1px 0 #000;font:normal 11px tahoma;}
+#topnav ul li:hover, #topnav ul li.active {
+color: #CCC;
+-webkit-transition: all 1s ease .2s;
+-moz-transition: all 1s ease .2s;
+-o-transition: all 1s ease .2s;
+-pie-transition: all 1s ease .2s;
+transition: all 1s ease .2s;
+}
+#topnav ul li a:hover, #topnav ul li.active a {
+color: #3A97BB;
+}
+#searcharea{margin: 0 0 3px;}
+.searchbox{
+background: #f8f8f8 url(http://3.bp.blogspot.com/-MVU1cWu8Q4s/Ucd8KntbB3I/AAAAAAAACJ8/mxtPmai8Ak8/s1600/search.png) no-repeat 95% 50%;
+font-family: tahoma;
+color: #444;
+margin: 0;
+padding: 13px 36px 14px 10px;
+border: 1px solid #ddd;
+opacity: 0.5;
+width: 200px;
+}
+.searchbox:focus{
+border: 1px solid #FF2424;
+}
+.searchbtn {
+background: url(http://3.bp.blogspot.com/-7isy_6XVsX0/UhVZtgx63AI/AAAAAAAAA7g/_7vsvg-DaOk/s1600/nvbar.png) repeat-x;
+border: 1px solid #0584CC;
+box-shadow: 0 1px 0 #CCC inset;
+color: #FFF;
+font: normal 14px GESSTwoMediumRegular, tahoma;
+padding: 10px 20px;
+margin: 0 -4px 0;
+}
+#ja-social .social { }
+#ja-social .ico-social { border-left-color: #444; }
+#ja-social .ico-social.ico-rss{background-image: url(http://2.bp.blogspot.com/-HdpfFKGUqac/Ue93HmOqf3I/AAAAAAAAAgA/zKI0mSmflrU/s1600/rss.png); }
+#ja-social .ico-social.ico-facebooks{background-image: url(http://3.bp.blogspot.com/-Jr8s6Y0e628/Ue93Hl2gUGI/AAAAAAAAAgc/4UD2m4hOsVE/s1600/fb.png); }
+#ja-social .ico-social.ico-twitters{background-image: url(http://1.bp.blogspot.com/-Ekvqx7yBy5A/Ue93IDq7tNI/AAAAAAAAAgQ/GfNxqGe0j9s/s1600/tw.png); }
+#ja-social .ico-social.ico-g{background-image: url(http://4.bp.blogspot.com/-Pu7gBFFgPY0/Ue93HnzoK4I/AAAAAAAAAf8/Hmll0UscyTM/s1600/g.png); }
+#ja-social .ico-social.ico-youtube{background-image: url(http://3.bp.blogspot.com/-SZcmWZ6YHzs/Ue93IeWMTdI/AAAAAAAAAgM/ENfkC1SAd2k/s1600/youtube.png); }
+#ja-social { float: left; margin:3px;}
+#ja-social .social {
+float: left;
+padding: 2px; }
+#ja-social .ico-social {
+background-position: left top;
+display: inline-block;
+float: left;
+font-size: 0;
+height: 30px;
+line-height: 0;
+text-indent: -9999em;
+width: 30px;
+-webkit-transition: all 1s ease .1s;
+-moz-transition: all 1s ease .1s;
+-o-transition: all 1s ease .1s;
+-pie-transition: all 1s ease .1s;
+transition: all 1s ease .1s;
+}
+#ja-social .ico-social:hover,
+#ja-social .ico-social:focus,
+#ja-social .ico-social:active { background-position: left bottom;
+-webkit-transition: all 1s ease .1s;
+-moz-transition: all 1s ease .1s;
+-o-transition: all 1s ease .1s;
+-pie-transition: all 1s ease .1s;
+transition: all 1s ease .1s;
+}
+/*---------Header---------------*/
+#head{width:1024px;overflow:hidden;margin:0 auto;padding:0;}
+#header {
+width: 245px;
+clear: both;
+float: right;
+margin: 38px 17px 0 0;
+padding: 0;
+}
+.ads{
+width: 728px;
+float: left;
+margin: 32px 0 0 17px;
+padding: 0;
+}
+/******------BY:Houssam-----***********/
+#navi {
+width: 990px;
+margin: 0 auto;
+height: 44px;
+background: url(http://3.bp.blogspot.com/-7isy_6XVsX0/UhVZtgx63AI/AAAAAAAAA7g/_7vsvg-DaOk/s1600/nvbar.png) repeat-x;
+padding: 0;
+clear: both;
+box-shadow: 0 1px 0px #007CCF;
+border-radius: 0;
+}
+#navi h2 {
+display:none
+}
+#navi ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+#navi ul li {
+float:right;
+padding:12px 20px;
+background:url(http://4.bp.blogspot.com/-xi26x-Hqg-A/UhVZt6hojKI/AAAAAAAAA7c/SCzgQr22mLE/s1600/nvbarsp.png) no-repeat;
+}
+#navi ul li a {
+color:#fff;
+font:normal 14px GESSTwoMediumRegular, tahoma; arial;!important;
+text-shadow: 0 1px 0 #007CCF;
+text-decoration:none;
+}
+#navi ul li a:hover {
+color:#fff;
+text-shadow: 0 -1px 0 #007CCF;
+}
+.post-labels{display:none;}
+
+/*-------By;arweb-----------sidebar--------------------*/
+.sidebar{margin:0 0 0 6px;padding:0;}
+.sidebar h2{
+font: normal 16px 'GESSTwoMediumRegular', arial, tahoma;
+margin: 0 0 10px;
+border-bottom: 4px solid #444;
+padding: 3px 0;
+color: #444;
+}
+.sidebar ul{
+margin: 0;
+line-height: 1.8em;
+padding: 8px 14px 8px 4px;
+font-size: 12px;
+font-family: tahoma;
+font-weight: normal;
+}
+.sidebar ul li{margin: 0 0 10px;}
+.sidebar ul li a{color:#888;font-size: 14px;font-family: GESSTwoMediumRegular;}
+.sidebar .widget{
+background: #fff;
+margin:0 0 10px;
+padding: 0;
+}
+/*-----------labels-----------------*/
+.list-label-widget-content ul li{ float:right;margin:0;padding:0; }
+#Label1{padding:0;}
+#Label1 ul{margin:0;padding: 0px 4px;}
+#Label1 ul li{
+padding: 6px 10px 6px;
+border: 1px solid #ddd;
+margin: 2px;
+}
+#Label1 ul li a {
+color: #aaa;
+font: normal 12px GESSTwoMediumRegular;
+}
+#Label1 ul li a:hover {
+color: #f05a1a;
+text-decoration:underline;
+}
+#Label2{padding:0;width:100%;}
+#Label2 ul{margin:0;width:100%;padding: 0px 4px;}
+#Label2 ul li {
+padding: 6px 0 6px;
+border: 1px solid #ddd;
+margin: 2px;
+background: #fff;
+}
+#Label2 ul li a {
+color: #aaa;
+font: normal 12px GESSTwoMediumRegular;
+}
+#Label2 ul li a:hover {
+color: #f05a1a;
+text-decoration:underline;
+}
+/** Admin Profile **/
+.profile-img {
+float: right;
+margin-top: 0;
+margin-left: 5px;
+margin-bottom: 5px;
+margin-right: 0;
+padding: 4px;
+border: 1px solid #dddddd;
+}
+.profile-data {
+margin:0;
+text-transform:uppercase;
+letter-spacing:.1em;
+font: normal normal 78% 'GESSTwoMediumRegular', Trebuchet, Arial, Verdana, Sans-serif;
+color: #777777;
+font-weight: bold;
+line-height: 1.6em;
+}
+.profile-datablock {
+margin:.5em 0 .5em;
+}
+.profile-textblock {
+margin: 0.5em 0;
+line-height: 1.6em;
+}
+.profile-link {
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+text-transform: uppercase;
+letter-spacing: .1em;
+}
+#ArchiveList {
+text-align: right;
+padding: 8px;
+}
+#BlogArchive1_ArchiveMenu{
+width: 100%;
+padding: 10px;
+background: #FD934D;
+border: 1px solid #F9760B;
+font: normal 12px tahoma;
+color: #FFF;
+text-shadow: 0 1px 0 #DF6400;
+}
+#PopularPosts1 ul{padding:0;}
+#PopularPosts1 ul li{margin: 5px 0;
+border-bottom: 1px solid #DDD;
+padding: 6px 0 6px 0px;}
+#PopularPosts1 ul li a{color: #5E6D82}
+#PopularPosts1 ul li a:hover{color:#db5b42;}
+.PopularPosts .item-thumbnail {
+float:right;
+}
+.PopularPosts img {
+height: 48px;
+width: 48px;
+float:right;
+margin-left:4px;
+padding:3px;
+}
+.PopularPosts .widget-content ul li {
+list-style: none;}
+#search{
+margin-top:0;
+margin-bottom:0;
+}
+/*----------comments----------*/
+.comments h4{
+background: #f8f8f8;
+padding: 10px;
+color: #444;
+font: bold 16px GESSTwoMediumRegular;
+border: 1px solid #ddd;
+}
+.comment-block {
+background: #f8f8f8;
+padding: 8px 8px 12px;
+border: 1px solid #ddd;
+}
+.avatar-image-container{
+background: #FFF;
+border: 1px solid #ddd;
+padding: 3px;
+}
+.comment-header{
+background: #FFF;
+border: 1px solid #ddd;
+padding: 8px;
+}
+.user a ,.blog-auter a{
+color: #2A92E2;
+font: normal 13px tahoma;
+}
+.datetime a {
+float: left;
+color: #2A92E2;
+font: normal 13px tahoma;
+}
+.comment-content {
+background: #FFF;
+border: 1px solid #ddd;
+padding: 10px 10px 46px;
+color: #888;
+font: normal 13px tahoma;
+}
+.comment-actions{
+background: #FFF;
+border: 1px solid #ddd;
+padding: 7px;
+font: normal 11px tahoma;
+}
+.comment-actions a{
+color: #2A92E2;
+font: normal 12px GESSTwoMediumRegular;
+}
+.widget .post-body ul {
+padding: 0;
+margin: 0;
+line-height: 0;
+}
+/* ---------Page Navigation---------------- */
+#blog-pager-newer-link {float: right;}
+#blog-pager-older-link {float: left;margin-left:10px;}
+#blog-pager {
+margin-top:10px;
+padding:4px 10px 4px 10px;
+background:#fff;
+border-radius:5px;
+border: 1px solid #ddd;
+}
+#blog-pager a{
+text-align: center;
+text-transform:uppercase;
+font-size:14px;
+font-family:HelveticaNeueW23, tahoma, arial;
+background:#fff;
+color:#00AEFF;
+}
+.feed-links {clear: both;line-height: 2.5em;}
+::-webkit-scrollbar {
+height:12px;
+background: #f8f8f8;}
+::-webkit-scrollbar-thumb {
+background-color: #00C2FF;
+box-shadow: inset 0 0 5px #1B689B;
+}
+.post {
+background: none repeat scroll 0 0 #fff;
+border-bottom: 1px solid #ddd;
+color: #555555;
+margin-bottom: 0;
+padding: 10px;
+text-align: justify;
+text-decoration: none;
+font: normal 13px tahoma;
+line-height: 1.6em;
+}
+.post-thumbnail {
+line-height: 0;
+}
+.post h3 {
+padding: 0 0 8px;
+color: #5F5F5F;
+font: normal 20px 'GESSTwoMediumRegular', arial, tahoma;
+}
+.post h3 a {
+padding: 0;
+color: #444;
+font: normal 20px 'GESSTwoMediumRegular', arial, tahoma;
+}
+.post p {padding:2px;font-size:12px;}
+.post-footer{
+display:none;
+}
+.post-title{padding: 20px;color:#888;font:normal 20px 'GESSTwoMediumRegular', arial, tahoma;}
+.post a{color:#00AEFF;font-size:12px;}
+
+#readmore a {
+background: #FF2424 url(http://3.bp.blogspot.com/-7isy_6XVsX0/UhVZtgx63AI/AAAAAAAAA7g/_7vsvg-DaOk/s1600/nvbar.png);
+float: right;
+color: #FFF;
+margin: 15px 0 0;
+padding: 4px 8px;
+text-decoration: none;
+font: normal 13px 'GESSTwoMediumRegular', arial, tahoma;
+border-right: 4px solid #777;
+}
+#readmore a:hover {
+background: #444 url(http://3.bp.blogspot.com/-t5bHtBIhN3c/Uf3DSZlj9CI/AAAAAAAAAs8/XmIoAsYECgo/s1600/nav.png);
+border-right: 4px solid #FF2424;
+}
+
+#copyrights-wrapper {
+overflow: hidden;
+border-top: 1px solid #222;
+background: #444;
+padding: 10px 0;
+color: #FFF;
+margin: 0;
+font: normal 12px GESSTwoMediumRegular, tahoma;
+}
+#copyrights{
+width:990px;
+overflow:hidden;
+margin:0 auto;
+}
+.copy-right{float:right;font: normal 14px GESSTwoMediumRegular, tahoma;}
+.copy-left{float:left;font: normal 14px GESSTwoMediumRegular, tahoma;}
+.copy-right a{color:#00b8ff;font: normal 14px GESSTwoMediumRegular, tahoma;}
+.copy-left a{padding-right:3px;color:#00b8ff;font: normal 14px GESSTwoMediumRegular, tahoma;}
+
+/*--------Footer----------*/
+#footer-wrapper {
+width: 100%;
+border-top: 1px solid #ddd;
+overflow: hidden;
+background: #f8f8f8 url(http://4.bp.blogspot.com/-dK36jk78-lg/UhV3t8HECOI/AAAAAAAAA8M/ww6WfXZGkik/s1600/bg-footer.gif);
+clear: both;
+padding: 10px 0;
+margin: 0;
+}
+#footer{
+width:990px;
+margin:0 auto;
+padding:0;
+}
+#footer-column{
+margin:0;
+padding:0;
+}
+#footer-column h2 {
+margin: 0;
+padding: 10px 0;
+color: #2b2b2b;
+font: normal 19px GESSTwoMediumRegular;
+}
+}
+#footer-column ul {
+margin: 0;
+padding: 0;
+}
+#footer-column ul li {
+margin: 2px;
+padding: 5px 6px;
+color: #FF2424;
+}
+#footer ul li a{
+margin:0;
+font: normal 12px tahoma;
+padding:0;
+color:#888;
+}
+.PopularPosts2 ul li a{color:#fff;}
+#copyrights-wrapper {
+overflow: hidden;
+border-top: 1px solid #222;
+background: #444;
+padding: 10px 0;
+color: #FFF;
+margin: 0;
+font: normal 12px GESSTwoMediumRegular, tahoma;
+}
+
+.feed-links{display:none;}
