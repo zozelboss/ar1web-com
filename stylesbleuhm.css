@@ -1,0 +1,55 @@
+
+/*-----------------------------------------------
+Blogger Template Style
+Name:     Blogging inspiration
+Designer: Houssam Baha
+URL:      www.ar1web.com
+----------------------------------------------- */
+
+
+#nav_header{background:#2EA8D5;margin:9px auto 10px;position:relative;-webkit-box-shadow:0 0 2px rgba(0, 0, 0, 0.1);-moz-box-shadow:0 0 2px rgba(0, 0, 0, 0.1);box-shadow:0 0 2px rgba(0, 0, 0, 0.1);-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;margin-top: -10px;}
+#nav_header ul{margin:0;padding:0;}
+#nav_header &gt; ul &gt; li{float:right;margin:0 0;list-style:none;position:relative;right:203px;font-family: Electrolize,ge_dinar_oneregular;}
+#nav_header &gt; ul &gt; li &gt; a{color:#fff;padding:14px 24px;display:block;position:relative;border-left:1px solid #31A0CA;}
+#nav_header &gt; ul &gt; li &gt; .selected:after{content:&quot;&quot;;border-bottom:3px solid #483353;position:absolute;bottom:0px;z-index:100;width:100%;right:0;}
+#nav_header &gt; ul &gt; li &gt; a:hover{color:#fff;background: #299FCC;transition: all 0.3s linear;}
+#nav_header &gt; ul &gt; li &gt; .selected{background:#6f5499;color:#ffffff;}
+#nav_header li span{position:relative;top:2px;padding-left:5px;}
+#nav_header li:hover ul.dropdown{display:block;}
+ul.dropdown{position:absolute;top:48px;background:#fff;width:130px;z-index:10;border:1px solid #ddd;padding:6px 0!important;display:none;}
+ul.dropdown li{margin:0 0;list-style:none;}
+ul.dropdown a{border:0;padding:7px;margin:5px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;display:block;transition: all 0.21s;}
+ul.dropdown a:hover{background:#299FCC;color:#fff;}
+ul.dropdown:before{content:&quot;&quot;;position:absolute;top:-14px;right:0px;width:100%;height:18px;}
+ul.dropdown:after{position:absolute;top:-13px;right:3px;content:&quot;&quot;;border:7px solid #fff;border-right-color:transparent;border-top-color:transparent;border-left-color:transparent;}
+ .fa-lightbulb-o:before {content: &quot;\f0eb&quot;;position: absolute;bottom: 0;right: -1px;font-size: 25px;line-height: 1.4em;padding-left: 10px;padding-bottom: 4px;padding-right: 10px;padding-top: 5px;color:#fff;background:#36B4E2;border-bottom-right-radius: 3px;}
+.fa-lightbulb-o:hover{color: #DD4637;}
+
+a:link, a:visited {color:#299FCC; text-decoration:none;}
+
+.search-icon{background:#2599C5;}
+
+.sidebar h2:before {content:&#39;\f15b&#39;;font-family:FontAwesome;font-style:normal;font-weight:normal;top:0;right:0;position:absolute;padding:2.4px 13px;background:#2EA8D5;color:#fff;line-height:26px;}
+
+#Label1 h2:before {
+background: #2EA8D5; 
+}
+
+#BlogArchive1 h2:before {
+background: #2EA8D5; 
+}
+
+#HTML5 h2:before {
+background: #2EA8D5;}
+#HTML9 h2:before {background: #2EA8D5; }
+
+#Followers1 h2:before {
+background: #2EA8D5; 
+}
+
+.PopularPosts ul li:nth-child(even) {background:#2EA8D5}
+.PopularPosts ul li:nth-child(odd) {background:#2EA8D5}
+.PopularPosts ul li:hover:nth-child(even),.PopularPosts ul li:hover:nth-child(odd){background:#36A6DB}
+
+.ltsinf{background:#2EA8D5}
+.ltsinf:before{border:8px solid #2681AC;}
