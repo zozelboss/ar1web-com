@@ -1,0 +1,74 @@
+/*
+ * ----------- www.ar1web.com -------------- *
+ */
+        /* CSS code */
+
+        .menu-btn {background: #0AF url(http://3.bp.blogspot.com/-PnkPIBXqRUc/VC6SAvSFRpI/AAAAAAAAGPA/VNtUpvoS6WY/s1600/icon_slidetoggle-menus.png) no-repeat center center;
+                   width: 30px;
+                   height: 30px;
+                   padding: 4px;
+                   position: fixed;
+                   top: 25px;
+                   right: 25px;
+                   z-index: 99999;
+                   text-indent: -900px;
+                   overflow: hidden;}
+    #menu-ar1web a{text-decoration: none;
+                   color: #FFF;
+                   font-family: arial;
+                   font-size: 20px;
+                   font-weight: bold;}
+      #menu-ar1web{position: fixed;
+                   top:0;
+                   bottom: 0;
+                   right:0;
+                   background: #444;
+                   color:#fff;
+                   height: 100%;
+                   width:250px;
+                   padding: 0 25px 0 25px;
+                   z-index: 999;
+                   overflow: auto;}
+        .ar1web-2 {background: #0AF;
+                   width: 30px;
+                   height: 30px;
+                   padding: 4px;
+                   position: fixed;
+                   top: 25px;
+                   right: 25px;
+                   z-index: 99999;
+                   overflow: hidden;
+                   text-align: center;
+                   line-height: 28px;}
+    .title-ar1web {color: #888;
+                   font: normal 18px insan,dkfont,tahoma;
+                   text-align: right;
+                   border-bottom: 1px solid #0AF;
+                   float: right;
+                   position: relative;
+                   top: 26px;
+                   right: 38px;
+                   line-height: 28px;
+                   display: block;
+                   padding-bottom: 8px;
+                   padding: 0 12px 8px 93px;}
+   .menu-a-ar1web {color: #EEE;
+                   text-align: right;
+                   font: normal 17px insan,dkfont,tahoma;
+                   margin: 25px 0;
+                   display: block;
+                   transition: all .5s;}
+.like-box-ar1web { position: fixed;
+                   background: #444;
+                   bottom: 0;
+                   top: auto;
+                   right: 0;
+                   left: auto;
+                   padding: 0 25px;
+                   width: 250px;}
+.menu-ul-ar1web {  float:right; width: 100%;}
+.menu-li-ar1web {  list-style: none;}
+.ar1web-1 , .ar1web-2 {cursor: pointer}
+#menu-ar1web , .ar1web-2 {display: none;}
+.menu-li-ar1web:hover .menu-a-ar1web {color:#0AF!important;}
+
